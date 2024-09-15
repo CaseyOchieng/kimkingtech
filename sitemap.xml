@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <!-- Homepage -->
+   <url>
+      <loc>https://www.kimkingtech.com/</loc>
+      <lastmod>2024-09-15</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+      <meta>
+         <title>Kim King Tech - Expert Mobile Repair Services</title>
+         <description>Kim King Tech offers fast, reliable mobile repair services in Muthiga, Kiambu. Get your phone repaired by experts.</description>
+      </meta>
+   </url>
+
+   <!-- Services Page -->
+   <url>
+      <loc>https://www.kimkingtech.com/services</loc>
+      <lastmod>2024-09-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <meta>
+         <title>Our Services - Kim King Tech Mobile Repair</title>
+         <description>Explore the range of mobile repair services offered at Kim King Tech. From screen replacement to software updates, we have you covered.</description>
+      </meta>
+   </url>
+
+   <!-- Contact Page -->
+   <url>
+      <loc>https://www.kimkingtech.com/contact</loc>
+      <lastmod>2024-09-15</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
+      <meta>
+         <title>Contact Us - Kim King Tech</title>
+         <description>Get in touch with Kim King Tech for all your mobile repair needs. Located in Muthiga, Kiambu. Fast and reliable support.</description>
+      </meta>
+   </url>
+
+   <!-- Blog Section -->
+   <url>
+      <loc>https://www.kimkingtech.com/blog</loc>
+      <lastmod>2024-09-15</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.6</priority>
+      <meta>
+         <title>Mobile Repair Tips & Insights - Kim King Tech Blog</title>
+         <description>Stay updated with the latest mobile repair tips, news, and trends. Read our blog at Kim King Tech for expert advice.</description>
+      </meta>
+   </url>
+
+</urlset>
