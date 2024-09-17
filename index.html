@@ -42,33 +42,114 @@
    <link rel="stylesheet" href="./css/style.css">
 
    <script type="application/ld+json">
-       {
-           "@context": "https://schema.org",
-           "@type": "LocalBusiness",
-           "name": "Kim King Tech",
-           "description": "Fast, reliable mobile repair services in Muthiga, Kiambu. Expert repair for all smartphone brands.",
-           "image": "./assets/images/hero-banner.jpg",
-           "url": "https://www.kimkingtech.com",
-           "address": {
-               "@type": "PostalAddress",
-               "streetAddress": "Muthiga",
-               "addressLocality": "Muthiga",
-               "addressRegion": "Kiambu",
-               "postalCode": "00900",
-               "addressCountry": "KE"
-           },
-           "contactPoint": {
-               "@type": "ContactPoint",
-               "telephone": "+254 797 777376"
-           },
+   {
+       "@context": "https://schema.org",
+       "@type": "LocalBusiness",
+       "name": "Kim King Tech",
+       "description": "Fast, reliable mobile repair services in Muthiga, Kiambu. Expert repair for all smartphone brands, including iPhone, Samsung, Huawei, and more. Flexible payment options available, including installment plans to make repairs more affordable.",
+       "image": "./assets/images/hero-banner.jpg",
+       "url": "https://www.kimkingtech.com",
+       "keywords": "mobile repair, smartphone repair, iPhone repair, Samsung repair, phone repair Muthiga, mobile repair Kiambu, Kim King Tech, tech repair, mobile service center, screen replacement, battery replacement, affordable mobile repair, phone repair installments, huduma ya simu, ukarabati wa simu, fundi wa simu, ubadilishaji wa skrini, kubadilisha betri, huduma za simu Muthiga, huduma za simu Kiambu, fundi wa computer, Kim King Tech, kituo cha huduma za teknolojia",
+       "address": {
+           "@type": "PostalAddress",
+           "streetAddress": "Muthiga",
+           "addressLocality": "Muthiga",
+           "addressRegion": "Kiambu",
+           "postalCode": "00900",
+           "addressCountry": "KE",
+           "geo": {
+               "@type": "GeoCoordinates",
+               "latitude": "-1.249974",
+               "longitude": "36.683629"
+           }
+       },
+       "contactPoint": {
+           "@type": "ContactPoint",
+           "telephone": "+254 797 777376",
+           "contactType": "Customer Service",
+           "email": "kimkingtech@gmail.com",
+           "availableLanguage": ["English", "Swahili"],
            "sameAs": [
                "https://www.facebook.com/profile.php?id=61565937293702",
-               "https://www.tiktok.com/@kimkingtech.mobile?_t=8pgyvlg9DL3&_r=1",
-               "https://wa.link/kpkv2o"
-               "https://www.instagram.com/kimkingtech?utm_source=qr&igsh=eG9ybGRyMDZ2d3lz",
+               "https://wa.link/kpkv2o",
+               "https://www.instagram.com/kimkingtech?utm_source=qr&igsh=eG9ybGRyMDZ2d3lz"
+           ]
+       },
+       "sameAs": [
+           "https://www.facebook.com/profile.php?id=61565937293702",
+           "https://www.tiktok.com/@kimkingtech.mobile?_t=8pgyvlg9DL3&_r=1",
+           "https://wa.link/kpkv2o",
+           "https://www.instagram.com/kimkingtech?utm_source=qr&igsh=eG9ybGRyMDZ2d3lz",
+           "https://twitter.com/kimkingtech"
+       ],
+       "openingHours": "Mo-Fr 09:00-18:00, Sa 10:00-16:00",
+       "lowPrice": "500",
+       "highPrice": "5000",
+       "priceCurrency": "KES",
+       "serviceArea": {
+           "@type": "Place",
+           "name": "Kiambu County",
+           "geo": {
+               "@type": "GeoCoordinates",
+               "latitude": "-1.249974",
+               "longitude": "36.683629"
+           }
+       },
+       "hasMap": "https://www.google.com/maps?q=-1.249974,36.683629",
+       "wazeMap": "https://waze.com/ul/hkzf0fu2nq",
+       "offers": {
+           "@type": "Offer",
+           "url": "https://www.kimkingtech.com/special-offers",
+           "priceCurrency": "KES",
+           "price": "3000",
+           "itemOffered": {
+               "@type": "Service",
+               "name": "Screen Replacement"
+           },
+           "description": "Get a discount on screen replacement services. Check our special offers page for more details."
+       },
+       "review": {
+           "@type": "Review",
+           "author": {
+               "@type": "Person",
+               "name": "Ruth Njoki",
+           },
+           "reviewRating": {
+               "@type": "Rating",
+               "ratingValue": "5",
+               "bestRating": "5"
+           },
+           "reviewBody": "Excellent service with fast turnaround. Highly recommended for mobile repairs!"
+       },
+       "additionalType": "http://www.productontology.org/id/Smartphone_repair",
+       "aggregateRating": {
+           "@type": "AggregateRating",
+           "ratingValue": "4.8",
+           "reviewCount": "120"
+       },
+       "hasOfferCatalog": {
+           "@type": "OfferCatalog",
+           "name": "Repair Services",
+           "itemListElement": [
+               {
+                   "@type": "Offer",
+                   "name": "Screen Replacement",
+                   "description": "Replacement of broken or damaged screens.",
+                   "priceCurrency": "KES",
+                   "price": "3000"
+               },
+               {
+                   "@type": "Offer",
+                   "name": "Battery Replacement",
+                   "description": "Replacement of old or faulty batteries.",
+                   "priceCurrency": "KES",
+                   "price": "2500"
+               }
            ]
        }
+   }
    </script>
+
 </head>
 
 
@@ -79,11 +160,13 @@
    <header class="header">
 
       <div class="contact-info">
-         <p> <i class="fas fa-map"></i> Nairobi, Kenya</p>
-         <p> <i class="fab fa-whatsapp"></i><a href="mailto:kimkingtech@gmail.com"
-               style="color: white;">kimkingtech@gmail.com</a> </p>
-         <p> <i class="fas fa-phone"></i><a href="https://wa.link/kpkv2o" style="color: white;"> Whatsapp Or Call +254
-               797 777376</a></p>
+         <p> <i class="fas fa-map"></i> <a href="https://goo.gl/maps/8HfUH1hC4x4GxWtL7" style="color: white;">Muthiga,
+               Kiambu</a> </p>
+         <p> <i class="fas fa-envelope"></i><a href="mailto:kimkingtech@gmail.com"
+               style="color: white;">kimkingtech@gmail.com
+            </a>
+         </p>
+         <p> <i class="fas fa-phone"></i><a href="https://wa.link/kpkv2o" style="color: white;">+254 797 777376</a></p>
       </div>
 
       <nav class="navbar">
@@ -123,7 +206,7 @@
             into a major
             headache—leave it to the professionals!
          </p>
-         <a href="#about" class="btn">Get started</a>
+         <a href="https://wa.link/kpkv2o" class="btn">Get started</a>
       </div>
 
    </section>
@@ -204,14 +287,19 @@
 
          <div class="box">
             <img src="images/service-1.svg" alt="">
-            <h3>computer repair</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, asperiores.</p>
+            <h3>Computer Repair</h3>
+            <p>We provide comprehensive computer repair services, including hardware troubleshooting, software
+               installation, and system optimization.
+            </p>
+
          </div>
 
          <div class="box">
             <img src="images/service-2.svg" alt="">
-            <h3>laptop repair</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, asperiores.</p>
+            <h3>Laptop Repair</h3>
+            <p>We offer professional laptop repair services, including screen replacement, battery issues, and software
+               troubleshooting.
+            </p>
          </div>
 
          <div class="box">
@@ -222,14 +310,22 @@
 
          <div class="box">
             <img src="images/service-4.svg" alt="">
-            <h3>game console repair</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, asperiores.</p>
+            <h3>Game Console Repair</h3>
+            <p>We offer expert repair services for all types of game consoles. Whether it's a PlayStation, Xbox, or
+               Nintendo Switch, our skilled technicians can fix hardware issues, screen problems, and more. Get your
+               game console back to peak performance quickly and affordably.
+            </p>
          </div>
 
          <div class="box">
             <img src="images/service-5.svg" alt="">
-            <h3>multi media repair</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, asperiores.</p>
+            <h3>Multimedia Repair</h3>
+            <p>Our multimedia repair services cover a wide range of devices including audio equipment, video players,
+               and
+               projectors. From fixing sound issues to repairing display problems, we ensure your multimedia devices
+               function like
+               new. Trust us to restore your devices efficiently and effectively.</p>
+
          </div>
 
          <div class="box">
