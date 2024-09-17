@@ -7,4 +7,4 @@ Disallow: /private/
 Allow: /
 
 # Sitemap location
-Sitemap: sitemap.xml
+Sitemap: ./sitemap.xml
